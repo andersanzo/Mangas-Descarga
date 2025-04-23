@@ -1,5 +1,5 @@
 
-# 📚 RobaMangas Supremo 🥷 — The Loading Gear Assassin
+# 📚 RobaMangas Supremo  — The Loading Gear Assassin
 
 Welcome to RobaMangas Supremo!  
 A ninja-crafted tool 🥷 that **automatically downloads manga from InManga.com**, saving **high-quality images**, neatly **organized by chapter**, and converted to **JPG** on the fly.
@@ -93,7 +93,7 @@ Give it a ⭐ if you found it useful!
 
 
 
-# 📚 RobaMangas Supremo 🥷 — El Asesino de Loading Gears
+# 📚 RobaMangas Supremo  — El Asesino de Loading Gears
 
 ¡Bienvenido a RobaMangas Supremo!  
 Una herramienta creada con precisión ninja 🥷 para **descargar automáticamente mangas desde InManga.com**, con imágenes en **alta calidad**, **ordenadas por capítulos** y convertidas a **JPG** al vuelo.
