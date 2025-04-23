@@ -83,7 +83,7 @@ Respect copyright — do not use it for illegal distribution.
 
 ## ✨ Credits
 
-Made by **[andersanzo]**(https://github.com/andersanzo) with love for manga and clean code.  
+Made by [@andersanzo](https://github.com/andersanzo) with love for manga and clean code.  
 Give it a ⭐ if you found it useful!
 
 ---
@@ -178,7 +178,7 @@ Respeta los derechos de autor y no lo uses para distribución ilegal.
 
 ## ✨ Créditos
 
-Creado por **[andersanzo]**(https://github.com/andersanzo) con pasión por el manga y el código limpio.  
+Creado por [@andersanzo](https://github.com/andersanzo) con pasión por el manga y el código limpio.  
 ¡Dale una estrella ⭐ si te sirvió!
 
 ---
