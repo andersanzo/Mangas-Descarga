@@ -125,9 +125,22 @@ def main():
     print("Capítulos encontrados (ordenados):")
     for chap_num, url in sorted_chapters:
         print(chap_num, url)
-    
-    # Recorre cada capítulo y procesa las imágenes
-    for idx, (chap_num, url) in enumerate(sorted_chapters, start=1):
+
+    # Nueva funcionalidad añadida: preguntar si quiere comenzar desde un capítulo específico
+    start_chapter = 0
+    respuesta = input("¿Quieres empezar desde un capítulo específico? (s/n): ").strip().lower()
+    if respuesta == 's':
+        try:
+            start_chapter = int(input("Introduce el número de capítulo desde el que quieres empezar: ").strip())
+        except ValueError:
+            print("Número no válido, empezando desde el principio.")
+            start_chapter = 0
+
+    # Filtra los capítulos si se especificó un número de inicio
+    filtered_chapters = [(num, url) for num, url in sorted_chapters if num >= start_chapter]
+
+    # Recorre cada capítulo filtrado y procesa las imágenes
+    for idx, (chap_num, url) in enumerate(filtered_chapters, start=1):
         # Cada capítulo se guarda en una carpeta con nombre incremental: 1, 2, 3, etc.
         chapter_folder = os.path.join(main_folder, str(idx))
         print(f"Procesando capítulo {chap_num} en carpeta {chapter_folder} ...")
